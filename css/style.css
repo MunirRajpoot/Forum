@@ -1,0 +1,463 @@
+/* @font-face {
+    font-family: lato;
+    src: url(../Lato-Regular.ttf);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: lato; */
+}
+
+.navbar-brand {
+    color: #5CB85C;
+    /* font-size: large; */
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/* .nav-link:hover{
+    color: rgba(0, 0, 0, 0.3);
+} */
+.sec1 {
+    background-color: #5CB85C;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fee-btn {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+
+}
+
+/* #999 */
+.fee-btn:active {
+    /* background-color: rgb(199, 129, 0); */
+    border-bottom: 3px solid #5CB85C;
+    color: #5CB85C;
+}
+
+.fee-btn:hover {
+    /* background-color: rgb(199, 129, 0); */
+    border-bottom: 3px solid #5CB85C;
+    color: #5CB85C;
+}
+
+.link-sec {
+    height: 50px;
+}
+
+.read-link {
+    color: #999;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.li-btn a {
+    color: #aaa;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.p-text {
+    color: #999;
+}
+
+.heading {
+    color: #5CB85C;
+}
+
+.h-btn {
+    color: #5CB85C;
+    background-color: transparent;
+    border-color: #5CB85C;
+}
+
+.h-btn svg path {
+    fill: #5CB85C;
+}
+
+.h-btn:hover svg path {
+    fill: white;
+    /* transition: 2s ease-in-out ; */
+}
+
+.tag-sec {
+    background: #f3f3f3;
+    padding: 10px;
+    height: 170px auto;
+}
+
+.tag-btn {
+    text-decoration: none;
+    background-color: #818a91;
+    color: white;
+    padding: 0px 7px 0px 7px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.tag-btn:hover {
+    color: white;
+
+}
+
+.foot-sec {
+    background-color: #f3f3f3;
+    margin-top: auto;
+
+}
+
+.for-logo {
+    text-decoration: none;
+    color: #5CB85C;
+    font-weight: bold;
+}
+
+.foot-text {
+    color: #bbb;
+    font-size: small;
+
+}
+
+/* ----------------------SignUp Css---------------------------- */
+.sign-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.inp-field input:active {
+    box-shadow: none;
+    outline: none;
+}
+
+.inp-field input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.inp-field input:hover {
+    box-shadow: none;
+    outline: none;
+}
+
+.wrapper {
+    flex: 1;
+
+}
+
+.signup {
+    height: 100%;
+}
+
+.form-sec {
+    width: 50%;
+}
+
+.signup-btn {
+    width: 120px;
+    height: 55px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.sign-link {
+    text-decoration: none;
+    color: #5CB85C;
+}
+
+.sign-link:hover {
+    color: #3d8b3d;
+    text-decoration: underline;
+}
+
+.foot-sign {
+    margin-top: auto;
+    /* Push the footer to the bottom */
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .form-sec {
+        width: 70%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .form-sec {
+        width: 80%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 575px) {
+    .form-sec {
+        width: 80%;
+    }
+
+    /* .foot-sign {
+      
+        bottom: -30px;
+     
+    } */
+
+
+}
+
+@media (min-width: 250px) and (max-width: 349px) {
+    .form-sec {
+        width: 80%;
+    }
+
+    /* .signup-btn {
+        margin-bottom: 50px;
+    } */
+
+    /* .foot-sign {
+      
+        bottom: -30px;
+     
+    } */
+
+}
+
+/* -------------------------Signin Css--------------------------------- */
+
+
+.sigin-btn {
+    width: 120px;
+    height: 55px;
+    font-size: large;
+    /* margin-bottom: 20px; */
+}
+
+
+/* -------------------New Article Css------------------------- */
+
+.svg-icon path {
+    fill: rgba(0, 0, 0, 0.3);
+}
+.nav-link:hover + .svg-icon path{
+    fill: rgba(0, 0, 0, 0.7);
+}
+
+.article-field textarea:active {
+    box-shadow: none;
+    outline: none;
+}
+
+.article-field textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.article-field textarea:hover {
+    box-shadow: none;
+    outline: none;
+}
+
+.publish-btn{
+    width: 150px;
+    height: 45px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.foot-article{
+    margin-top: auto;
+}
+.article-page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.article-form{
+    width: 80%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .article-form{
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .article-form{
+        width: 100%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 575px) {
+    .article-form{
+        width: 100%;
+    }
+
+    /* .foot-sign {
+      
+        bottom: -30px;
+     
+    } */
+
+
+}
+
+@media (min-width: 250px) and (max-width: 349px) {
+    .article-form{
+        width: 100%;
+    }
+    /* .signup-btn {
+        margin-bottom: 50px;
+    } */
+
+    /* .foot-sign {
+      
+        bottom: -30px;
+     
+    } */
+
+}
+
+/* ----------------------------------setting page Css-------------------------------------  */
+
+.setting-page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.setting-form{
+    width: 50%;
+}
+.update-btn{
+    width: 180px;
+    height: 45px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.logout-btn{
+    background-color: transparent;
+    color: #B85C5C;
+    border: 1px solid #B85C5C;
+}
+.logout-btn:hover{
+    background-color: #B85C5C;
+    color: white;
+    border: 1px solid #B85C5C;
+    transition: 0.5s ease-in-out;
+  
+}
+.setting-sec{
+    margin-bottom: 30px
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .setting-form{
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .setting-form{
+        width: 90%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 575px) {
+    .setting-form{
+        width: 90%;
+    }
+
+    /* .foot-sign {
+      
+        bottom: -30px;
+     
+    } */
+
+
+}
+
+@media (min-width: 250px) and (max-width: 349px) {
+    .setting-form{
+        width: 100%;
+    }
+    /* .signup-btn {
+        margin-bottom: 50px;
+    } */
+
+    /* .foot-sign {
+      
+        bottom: -30px;
+     
+    } */
+
+}
+
+
+/* -------------------------Profile Page Css----------------------------------------- */
+.prof-sec{
+    height: 250px;
+}
+.edit-btn{
+    border: 1px solid #999;
+}
+.edit-btn a{
+    /* background-color: transparent; */
+    color: #999;
+ 
+    /* height: 30px; */
+}
+.edit-btn:hover{
+    background-color: #ccc;
+    color: #999;
+}
+.link-sec {
+    height: 50px;
+}
+
+.post-btn {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+.post-btn:active {
+    /* background-color: rgb(199, 129, 0); */
+    border-bottom: 3px solid #5CB85C;
+    color: #5CB85C;
+}
+
+.post-btn:hover {
+    /* background-color: rgb(199, 129, 0); */
+    border-bottom: 3px solid #5CB85C;
+    color: #5CB85C;
+}
+.profile-page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.foot-profile{
+    margin-top: auto;
+}
